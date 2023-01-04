@@ -1,0 +1,136 @@
+.banner{
+    background:url("../img/jumbotron.png")
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color:gold;
+}
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #FFF;
+    background-color: goldenrod;
+}
+.lingkaran i{
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+.crop-img{
+    object-fit: cover;
+}
+.contact{
+    background: url("../img/message.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color:gold;
+}
+.menu{
+    background: url("../img/menu.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color:gold;
+} 
+
+img{
+    padding-right: 0;
+}
+
+.col-md-3{
+    padding: 40px;
+}
+h3{
+    font-family: 'Brush Script MT', cursive;
+}
+h4{
+    font-family: serif;
+}
+
+@media screen and (max-width: 900px) {
+    .col-md-3{
+        flex: 50%;
+    }
+    .col-md-6{
+        flex: 100%;
+    }
+}
+
+p{
+    font-family: 'Didot';
+}
+.nav-link:hover {
+    color: gold;
+}
+.display-3 {
+    font-family: cursive;
+    color: goldenrod;
+}
+p{
+    font-family: sans-serif;
+    color: gold;
+}
+.mt-3{
+    color: goldenrod;
+
+}
+.container-fluid.pt-5.pb-5.bg-dark{
+    background-repeat: repeat;
+}
+.card-title{
+    color: gold;
+}
+
+.fa-solid{
+    color: gold;
+    padding-top: 5px;
+}
+
+.cart{
+    background: url("image/menu.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    
+    color:gold;
+}
+
+@media (min-width: 900px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: gold;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
